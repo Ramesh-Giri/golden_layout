@@ -1,4 +1,4 @@
-## 0.0.1
+## 0.0.3
 
 Golden Ratio Layout: Arrange two child widgets in the pleasing proportions of the Golden Ratio.
 Responsive Design: The layout dynamically adapts to the available space, maintaining the Golden Ratio proportions.
