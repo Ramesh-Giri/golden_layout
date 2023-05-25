@@ -34,6 +34,13 @@ import 'package:golden_layout/golden_layout.dart';
 ```
 
 #
+## Screenshot
+
+
+![alt text](https://github.com/Ramesh-Giri/golden_layout/blob/main/screenshots/example.png)
+
+
+#
 
 properties
 
