@@ -39,6 +39,12 @@ import 'package:golden_layout/golden_layout.dart';
 
 ![alt text](https://github.com/Ramesh-Giri/golden_layout/blob/main/screenshots/example.png)
 
+![alt text](https://github.com/Ramesh-Giri/golden_layout/blob/main/screenshots/nested.png)
+
+![alt text](https://github.com/Ramesh-Giri/golden_layout/blob/main/screenshots/example_horizontal.png)
+
+![alt text](https://github.com/Ramesh-Giri/golden_layout/blob/main/screenshots/example_vertical.png)
+
 
 #
 
@@ -85,4 +91,53 @@ class MyHomePage extends StatelessWidget {
 }
 
 ```
+
+
+## Nested Implementation
+
+```dart
+
+GoldenLayout(
+        firstChild: GoldenChild(
+          child: Container(
+            decoration: BoxDecoration(
+              border: Border.all(color: Colors.yellow),
+              color: Colors.black,
+            ),
+            child: GoldenLayout(
+              axis: Axis.vertical,
+              firstChild: GoldenChild(
+                  isSmaller: true,
+                  child: Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(color: Colors.yellow),
+                      color: Colors.black,
+                    ),
+                  )),
+              secondChild: GoldenChild(
+                  isSmaller: true,
+                  child: Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(color: Colors.yellow),
+                      color: Colors.black,
+                    ),
+                  )),
+            ),
+          ),
+        ),
+        secondChild: GoldenChild(
+          child: Container(
+            decoration: BoxDecoration(
+              border: Border.all(color: Colors.yellow),
+              color: Colors.black,
+            ),
+          ),
+        ),
+        axis: Axis.horizontal,
+        showFirstChild: true,
+        showSecondChild: true,
+      )
+      
+   ```  
+
 #
