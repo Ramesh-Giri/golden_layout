@@ -21,15 +21,15 @@ Please check the latest version before installation. If there is any problem wit
 dependencies:
   flutter:
     sdk: flutter
-  # add golden_layout
-  golden_layout: ^{latest version}
+  # add golden_ratio_layout
+  golden_ratio_layout: ^{latest version}
 
 ```
 
 Add the following imports to your Dart code
 
 ```dart
-import 'package:golden_layout/golden_layout.dart';
+import 'package:golden_layout/golden_ratio_layout.dart';
 
 ```
 
