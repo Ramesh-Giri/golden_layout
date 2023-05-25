@@ -39,11 +39,9 @@ import 'package:golden_layout/golden_ratio_layout.dart';
 
 ![alt text](https://github.com/Ramesh-Giri/golden_layout/blob/main/screenshots/example.png)
 
-![alt text](https://github.com/Ramesh-Giri/golden_layout/blob/main/screenshots/nested.png)
-
 ![alt text](https://github.com/Ramesh-Giri/golden_layout/blob/main/screenshots/example_horizontal.png)
 
-![alt text](https://github.com/Ramesh-Giri/golden_layout/blob/main/screenshots/example_vertical.png)
+
 
 
 #
@@ -92,6 +90,9 @@ class MyHomePage extends StatelessWidget {
 
 ```
 
+![alt text](https://github.com/Ramesh-Giri/golden_layout/blob/main/screenshots/example_vertical.png)
+
+#
 
 ## Nested Implementation
 
@@ -139,5 +140,6 @@ GoldenLayout(
       )
       
    ```  
+![alt text](https://github.com/Ramesh-Giri/golden_layout/blob/main/screenshots/nested.png)
 
 #
