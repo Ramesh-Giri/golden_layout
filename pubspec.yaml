@@ -1,0 +1,19 @@
+name: golden_layout
+description: Your secret sauce for stunning widgets
+version: 0.0.1
+homepage: https://github.com/Ramesh-Giri/golden_layout
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
